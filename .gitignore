@@ -1,7 +1,36 @@
-﻿venv/
-token.env
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
 __pycache__/
-*.pyc
-.pytest_cache/
-.idea/
+*.py[cod]
+*.so
+.Python
+
+# IDEs
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.db
+
+# Temporary / swap files
+*.swp
+*.swo
+*~
+
+# Misc
+.env.local
+.env
+token.env
